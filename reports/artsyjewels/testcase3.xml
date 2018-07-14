@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="artsyjewels.testcase3"
+    errors="1" failures="0" hostname="" id="" package="artsyjewels" skipped="0"
+    tests="1" time="0.008000" timestamp="Sat, 14 Jul 2018 08:14:01 GMT">
+  
+    <testcase name="Validate user can log in properly" classname="artsyjewels.testcase3" time="0.008000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Artsyjewels / Testcase3 / Validate user can log in properly]:
+
+  TypeError: browser.url(...).waitForElementVisible(...).assert.title(...).click(...).setValue(...).setValue(...).click(...).assert.visible(...).contains is not a function
+    at Object.Validate user can log in properly (C:\Users\Alex\Desktop\javascript\nightwatch\tests\artsyjewels\testcase3.js:19:104)
+    at Module.call (C:\Users\Alex\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\Alex\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\Alex\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at C:\Users\Alex\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30
+    at Promise.promise.promiseDispatch (C:\Users\Alex\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\Alex\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\Alex\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\Alex\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
