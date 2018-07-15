@@ -1,28 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="2">
 
   <testsuite name="testcases.login"
-    errors="0" failures="1" hostname="" id="" package="testcases" skipped="1"
-    tests="2" time="5.304" timestamp="Sun, 15 Jul 2018 08:04:31 GMT">
+    errors="0" failures="0" hostname="" id="" package="testcases" skipped="0"
+    tests="2" time="9.665" timestamp="Sun, 15 Jul 2018 19:08:17 GMT">
   
-    <testcase name="Go to the login page" classname="testcases.login" time="5.304" assertions="1">  <failure message="Timed out while waiting for element &lt;body&gt; to be present for 1000 milliseconds.">    at openBrowser (C:\Users\Alex\Desktop\javascript\nightwatch\pages\utils.js:6:10)
-    at Object.before (C:\Users\Alex\Desktop\javascript\nightwatch\tests\testcases\login.js:7:24)</failure>
+    <testcase name="Go to the login page" classname="testcases.login" time="8.142" assertions="1">
 
     
+    </testcase>
+  
+    <testcase name="login as admin" classname="testcases.login" time="1.523" assertions="0">
     </testcase>
   
 
   
 
-  
-    
-    <testcase
-      name="login as admin" classname="testcases.login">
-      <skipped />
-    </testcase>
-    
   
   </testsuite>
 </testsuites>
