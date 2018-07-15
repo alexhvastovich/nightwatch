@@ -10,7 +10,7 @@ module.exports = {
         utils(browser).featuredProductAddtoCart();
     },
     after: function (browser) {
-        browser.pause(5000);
+        browser.pause(1000);
         browser.end();
     }
 };
