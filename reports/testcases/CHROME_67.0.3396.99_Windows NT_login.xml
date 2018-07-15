@@ -5,14 +5,14 @@
 
   <testsuite name="testcases.login"
     errors="0" failures="0" hostname="" id="" package="testcases" skipped="0"
-    tests="2" time="9.665" timestamp="Sun, 15 Jul 2018 19:08:17 GMT">
+    tests="2" time="56.84" timestamp="Sun, 15 Jul 2018 21:15:18 GMT">
   
-    <testcase name="Go to the login page" classname="testcases.login" time="8.142" assertions="1">
+    <testcase name="Go to the login page" classname="testcases.login" time="42.81" assertions="1">
 
     
     </testcase>
   
-    <testcase name="login as admin" classname="testcases.login" time="1.523" assertions="0">
+    <testcase name="login as admin" classname="testcases.login" time="14.04" assertions="0">
     </testcase>
   
 

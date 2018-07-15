@@ -1,15 +1,16 @@
 {
-  "name": "nightwatch",
+  "name": "nightwatchjs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nightwatch -e chrome -a all"
+    "test": "node node_modules/nightwatch/bin/runner.js -e chrome -a login"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "nightwatch": "^0.9.21",
     "selenium-webdriver": "^4.0.0-alpha.1"
   }
 }
