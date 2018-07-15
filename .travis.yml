@@ -5,7 +5,7 @@ node_js:
 
 before_script:
   - npm install 
-  - npm install nightwatch
+  - node node_modules/selenium-standalone/bin/selenium-standalone install
 
 script:
   - node node_modules/nightwatch/bin/runner.js -e chrome -a login
