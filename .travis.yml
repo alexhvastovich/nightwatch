@@ -5,8 +5,8 @@ node_js:
 
 before_script:
   - npm install
-  - npm install -g nightwatch
+  - npm install nightwatch
 
 script:
-  - npm test
+  - node node_modules/nightwatch/bin/runner.js -e chrome -a login
   # - npm run-script coverage
